@@ -1,0 +1,10 @@
+
+1st query:
+
+  select * from emp
+  where hiredate like '%FEB-81' AND COMM >400;
+
+2nd query:
+
+   select count(*) from emp
+   where COMM IS NULL OR COMM = 0;
